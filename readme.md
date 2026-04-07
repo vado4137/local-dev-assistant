@@ -32,32 +32,37 @@ Das Projekt folgt einer modernen RAG-Pipeline:
 1. **Repository klonen:**
    ```bash
    git clone [https://github.com/vado4137/local-dev-assistant.git](https://github.com/vado4137/local-dev-assistant.git)
-   cd local-dev-assistant```
+   cd local-dev-assistant
+   ```
 2. **Virtuelle Umgebung erstellen & aktivieren:**
-```Bash
+```bash
 
 python3 -m venv venv
-source venv/bin/activate```
+source venv/bin/activate
+```
 
 3. ***Abhängigkeiten installieren:***
-```Bash
+```bash
 
-pip install -r requirements.txt```
+pip install -r requirements.txt
+```
 
 4. ***Ollama Modell vorbereiten:**
 Stelle sicher, dass Ollama läuft und lade das gewünschte Modell:
-```Bash
+```bash
 
-ollama run llama3```
+ollama run llama3
+```
 
 5. *** fastapi Backend starten:
 ```bash
 uvicorn api:app --reload
 ```
 6. ***Streamlit Frontend starten:***
-```Bash
+```bash
 
-streamlit run app.py```
+streamlit run app.py
+```
 
 ##🧠 Smart-Ingest Logik (Automatisierung)
 
