@@ -1,0 +1,18 @@
+# Python virtuelle Umgebung
+venv/
+.venv/
+env/
+
+# Byte-Code (Python Cache)
+**/__pycache__/
+*.py[cod]
+
+# Vektordatenbank (Lokal)
+chroma_db/
+
+# DEIN CODE (Privat)
+code/
+
+# Betriebssystem-Dateien
+.DS_Store
+Thumbs.db
