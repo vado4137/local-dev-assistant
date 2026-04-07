@@ -68,11 +68,11 @@ streamlit run app.py
 
 Um auch restriktive Dokumentationen (wie z. B. PyTorch) erfolgreich einzulesen, durchläuft das System automatisch folgende Eskalationsstufen:
 
-    - **Sitemap-Scan:** Versuch, die sitemap.xml direkt zu parsen.
+- **Sitemap-Scan:** Versuch, die sitemap.xml direkt zu parsen.
 
-    - **Index-Auflösung:** Falls die Sitemap ein Index ist, werden verschachtelte Strukturen automatisch aufgelöst.
+- **Index-Auflösung:** Falls die Sitemap ein Index ist, werden verschachtelte Strukturen automatisch aufgelöst.
 
-    - **Recursive Crawler:** Falls XML-Anfragen blockiert werden (z. B. durch Botschutz), schaltet das System auf HTML-Crawling um und folgt den Links auf der Webseite bis zur gewünschten Tiefe.
+- **Recursive Crawler:** Falls XML-Anfragen blockiert werden (z. B. durch Botschutz), schaltet das System auf HTML-Crawling um und folgt den Links auf der Webseite bis zur gewünschten Tiefe.
 
 ##📄 Lizenz
 
